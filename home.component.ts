@@ -13,6 +13,10 @@ export class HomeComponent implements OnInit  {
     setTimeout(() => {
       this.openModal();
     }, 3000);
+    
+     setTimeout(() => {
+      this.closeModal();
+    }, 10000);
   }
 
   openModal() {
